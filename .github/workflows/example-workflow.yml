@@ -24,6 +24,6 @@ jobs:
       # actions/hello-world-javascript-action@v1.2.3
       - name: Print to Log
         id: print-to-log
-        uses: jconnerly-foreflight/hello-world-javascript-action@main
+        uses: jconnerly-foreflight/hello-world-javascript-action@766b9d14fbdaa8448e84f147b7486bc01e371731
         with:
           who-to-greet: ${{ inputs.who-to-greet }}
