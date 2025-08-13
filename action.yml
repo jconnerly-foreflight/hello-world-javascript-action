@@ -15,5 +15,5 @@ outputs:
     description: The time we greeted you
 
 runs:
-  using: node24
+  using: node20
   main: dist/index.js
